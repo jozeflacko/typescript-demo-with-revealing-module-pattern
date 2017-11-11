@@ -2,7 +2,7 @@
 
 This is a very simple app using Revealing module pattent with TypeScript and JQuery
 
-Demo is an demonstration of how easily could be Typescript added into already existing.
+Demo is a demonstration of how easily could be Typescript added into already existing.
 
 - In the demo I am adding all modules/classes into on main object called app
 - After build all Typescript files are transpiled into JavaScript files (Es5) and created
