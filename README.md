@@ -1,15 +1,18 @@
 # Typescript-and-revealing-module-pattern
 
-This is a very simple app using Revealing module pattent, TypeScript and JQuery
+This is a very simple app using Revealing module pattent with TypeScript and JQuery
 
-Not using importing and exporting modules!
+Demo is an demonstration of how easily could be Typescript added into already existing.
 
+- In the demo I am adding all modules/classes into on main object called app
+- After build all Typescript files are transpiled into JavaScript files (Es5) and created
+  right next to typescript files. Then this JavaScript files should be linked into the html pages.
+- In this example not used any imports/exports
+
+How to start app:
 1. install typescript globally on your pc
-2. navigate to your project
-3. in your project write tsc --init
-4. add include to your tsconfig file:
-  "include": [
-    "src/**/*"
-  ],
-5. TO WATCH FOR CHANGES --> write into your console "tsc -w"
-6. to stop watch just type "CTRL+C 2" times
+2. navigate with command line to the folder where the project is saved
+3. type: tsc
+4. all Typescript files will be transpiled into JavaScript files
+5. start browser and open index.html
+6. For development to watch Typescript files and automatically transpile them on save write in command line: "tsc -w"
