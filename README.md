@@ -11,5 +11,5 @@ Not using importing and exporting modules!
   "include": [
     "src/**/*"
   ],
-5. TO WATCH FOR CHANGES --> write into your console "tsc -w
+5. TO WATCH FOR CHANGES --> write into your console "tsc -w"
 6. to stop watch just type "CTRL+C 2" times
