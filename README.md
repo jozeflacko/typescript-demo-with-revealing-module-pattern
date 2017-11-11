@@ -1,6 +1,6 @@
 # Typescript-and-revealing-module-pattern
 
-This is a very simple app using Revealing module pattent and TypeScript and JQuery
+This is a very simple app using Revealing module pattent, TypeScript and JQuery
 
 Not using importing and exporting modules!
 
@@ -11,5 +11,5 @@ Not using importing and exporting modules!
   "include": [
     "src/**/*"
   ],
-5. write into your console tsc -w
+5. TO WATCH FOR CHANGES --> write into your console "tsc -w
 6. to stop watch just type "CTRL+C 2" times
