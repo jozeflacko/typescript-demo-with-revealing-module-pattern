@@ -7,7 +7,10 @@ Demo is a demonstration of how easily could be Typescript added into already exi
 - In the demo I am adding all modules/classes into on main object called app
 - After build all Typescript files are transpiled into JavaScript files (Es5) and created
   right next to typescript files. Then this JavaScript files should be linked into the html pages.
-- In this example not used any imports/exports
+- In this example are not used any imports/exports
+
+Source contains one index.html where we link our old javacript file: javacsriptModule.js 
+and two transpiled typescript files.
 
 How to start app:
 1. install typescript globally on your pc
